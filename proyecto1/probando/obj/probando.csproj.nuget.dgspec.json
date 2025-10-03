@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/miprimerepo/proyecto1/probando/probando.csproj": {}
+    "/home/alexander/miprimerepo/proyecto1/probando/probando.csproj": {}
   },
   "projects": {
-    "/workspaces/miprimerepo/proyecto1/probando/probando.csproj": {
+    "/home/alexander/miprimerepo/proyecto1/probando/probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/miprimerepo/proyecto1/probando/probando.csproj",
+        "projectUniqueName": "/home/alexander/miprimerepo/proyecto1/probando/probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/miprimerepo/proyecto1/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/miprimerepo/proyecto1/probando/obj/",
+        "projectPath": "/home/alexander/miprimerepo/proyecto1/probando/probando.csproj",
+        "packagesPath": "/home/alexander/.nuget/packages/",
+        "outputPath": "/home/alexander/miprimerepo/proyecto1/probando/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/alexander/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,16 +32,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "newtonsoft.json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.120/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
